@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Search</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-          crossorigin="anonymous">
+
+    <title>Google</title>
+    <meta charset="UTF-8"
+          name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/Users/antonyakovishin/Documents/GitHub/g.github.io/style">
 </head>
-    <body>
-    <a class="btn btn-secondary" href="https://www.google.com.ua/imghp" role="button"
-       style="float: right;">Поиск по картнке</a> <br>
-        <br>
-        <IMG class="displayed" src="https://www.google.com/logos/doodles/2022/get-vaccinated-wear-a-mask-save-lives-february-11-12-6753651837109782-2xa.gif"
-        style=" width: 600px; height: 300px; margin: 30px">
-    <br>
-        <form action="https://google.com/search">
-            <input type="text" name="q"  class="btn btn-light" style="text-align: center; width: 500px;
-            height: 50px;">
-        </form>
-    <br>
-    </body>
-    <body style="text-align: center">
-        <a class="btn btn-secondary" href="https://google.com/search" role="button">Поиск в Google</a>
-        <a class="btn btn-secondary" href="https://www.google.com/doodles" role="button">Мне повезет!</a>
+
+<body>
+    <div class="header">
+
+    <a class="nav_link" href="picture search.html">Пошук зображень</a>
+    <a class="nav_link" href="advanced_search.html">Розширений пошук</a>
+
+    </div>
+
+    <div class="image">
+        <img src="https://www.google.com/logos/doodles/2022/get-vaccinated-wear-a-mask-save-lives-january-18-copy-6753651837109684-2xa.gif"
+             alt="Google">
+    </div>
+
+
+    <form action="https://google.com/search">
+
+        <div class="d-flex justify-content-center">
+            <input class="input_line" type="text" name="q">
+        </div>
+
+        <div class="d-flex flex-wrap justify-content-center">
+            <input class="button btn_light" type="submit" value="Пошук Google">
+            <input class="button btn_light" type="submit" value="Мені пощастить"
+                   formaction="https://www.google.com/doodles">
+        </div>
+    </form>
     </body>
 </html>
+
