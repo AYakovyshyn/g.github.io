@@ -108,7 +108,7 @@ form {
 .button:not(:disabled):not(.disabled) {
     cursor: pointer;
 }
-/* images.html */
+/* picture search.html */
 
 img {
     vertical-align: middle;
