@@ -111,8 +111,8 @@ form {
 /* picture search.html */
 
 img {
-    vertical-align: middle;
-    border-style: none;
+    display: flex;
+    justify-content: center;
 }
 
 .logo_container {
